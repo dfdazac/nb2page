@@ -31,7 +31,7 @@ with open(md_path) as markdown:
             # External assets have to be copied to the files folder
             elif new_line.startswith('![Alt Text]('):
                 asset = new_line[new_line.find('(') + 1:new_line.find(')')]
-                new_line = '![Alt Text](' + os.path.join(ASSETS_PATH, files_folder, asset) + ')'
+                new_line = '![Alt Text](' + os.path.join(ASSETS_PATH, files_folder, asset) + ')\n'
                 assets_to_copy.append(asset)
 
         body += new_line
