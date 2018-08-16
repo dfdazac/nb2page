@@ -3,10 +3,5 @@ layout: post
 title: ""
 author: "Daniel Daza"
 tags: []
+github_link: ""
 ---
-<script type="text/x-mathjax-config">
-MathJax.Hub.Config({
-  tex2jax: {inlineMath: [['$','$']]}
-});
-</script>
-<a href="" target="_blank"><img src="assets/img/github_button.png" alt="Download from GitHub" width="165" height="65"></a>
