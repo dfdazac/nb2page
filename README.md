@@ -3,9 +3,7 @@
 A script to convert a Jupyter notebook to a markdown file that can be posted on a GitHub page. It does:
 
 - Call nbconvert to convert a notebook to markdown.
-- Change MathJax mode so that inline math can be rendered when typed with single dollar symbols, e.g. `$f(x) = x + 1$`
 - Add a front matter to specify layout, title, etc.
-- Add a GitHub button that points to a repository.
 - Replace image paths in the generated markdown file to an appropriate folder (e.g. `assets`).
 - Move all the exported files to their respective folders in the page root directory.
 
